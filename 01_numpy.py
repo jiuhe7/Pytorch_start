@@ -136,22 +136,23 @@ import numpy as np
 #
 
 # 向量切片
-arr=np.arange(0,9)
-print(arr)
+# arr=np.arange(0,9)
+# print(arr)
 # print(arr[1:4])
 #
 # print(arr[1:])
 #
 # print(arr[:4])
 # 间隔取样
-print(arr[::2])
-print(arr[::3])
-print(arr[1:-1:2])
+# print(arr[::2])
+# print(arr[::3])
+# print(arr[1:-1:2])
 
 
 
 
-
+arr=np.arange(1,21).reshape(4,5)
+print(arr)
 
 
 
