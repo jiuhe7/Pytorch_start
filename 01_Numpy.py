@@ -663,11 +663,11 @@ from fontTools.feaLib.ast import simplify_name_attributes
 # np.nansum()  np.nanprod() 等忽略缺失值
 
 # 标准差
-arr=np.arange(10).reshape(2,5)
-print(arr)
-print("求维度一(列)： ",np.std(arr,axis=0))
-print("求维度二(行)： ",np.std(arr,axis=1))
-print("求整体： ",np.std(arr))
+# arr=np.arange(10).reshape(2,5)
+# print(arr)
+# print("求维度一(列)： ",np.std(arr,axis=0))
+# print("求维度二(行)： ",np.std(arr,axis=1))
+# print("求整体： ",np.std(arr))
 
 
 #布尔型数组
